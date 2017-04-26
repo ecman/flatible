@@ -1,0 +1,40 @@
+{
+  "name": "flatible",
+  "version": "1.0.0",
+  "description": "Generate values from a multi-dimensional array.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/",
+    "preversion": "npm test",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecman/flatible.git"
+  },
+  "keywords": [
+    "array",
+    "ecman",
+    "flatten",
+    "flattener",
+    "flatible",
+    "generator",
+    "multi-dimensional"
+  ],
+  "author": "ecman <its.ec@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecman/flatible/issues"
+  },
+  "homepage": "https://github.com/ecman/flatible#readme",
+  "engines" : {
+    "node" : ">=3.3.1"
+  }
+}
+
+
