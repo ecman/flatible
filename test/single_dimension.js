@@ -1,10 +1,16 @@
 'use strict';
+
 let someArray = [0, 1, 2, 3, 4, 5];
-let index = 1;
+let index = 0;
+let someValue = null;
+let assert = require('assert');
+let flatible = require('../');
 
-for (let someValue of flatible(someArray))
-  assert.equal(someArray[index++], someValue, 
-    `value ${someValue} should be ${index}`);
+for (someValue of flatible(someArray)) {
+  assert.equal(someValue, index++,
+    `someValue should equal ${index}`);
+}
 
-assert.equal(index, someArray.length, 
-  `index should be ${someArray.length}`);
+assert.equal(someValue, Math.max(index-1, 0),
+  `someValue should equal ${Math.max(index-1, 0)} not ${someValue}`);
+
