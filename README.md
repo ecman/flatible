@@ -2,6 +2,8 @@
 
 Generate values from a multi-dimensional array.
 
+[![build status](https://api.travis-ci.org/ecman/flatible.png)](https://travis-ci.org/ecman/flatible)
+
 # Usage
 
 ```js
