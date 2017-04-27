@@ -2,7 +2,6 @@
 
 const path = require('path');
 const fs = require('fs');
-const cp = require('child_process');
 const testfiles = fs.readdirSync(__dirname);
 
 for (let filename of testfiles) {
@@ -10,7 +9,7 @@ for (let filename of testfiles) {
       path.basename(__filename) === filename)
     continue;
 
-  cp.execFileSync('node', [`test/${filename}`]);
+  require(`./${filename}`);
   console.log(filename, 'OK');
 }
 
