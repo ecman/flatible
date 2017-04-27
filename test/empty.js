@@ -10,5 +10,5 @@ for (someValue of flatible(someArray))
   index++;
 
 assert.equal(index, someArray.length, 
-  `index should be ${someArray.length}`);
+  `index should be ${someArray.length} not ${index}`);
 

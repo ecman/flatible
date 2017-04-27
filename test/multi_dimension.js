@@ -7,8 +7,9 @@ let assert = require('assert');
 let flatible = require('../');
 
 for (someValue of flatible(someArray)) {
-  assert.equal(someValue, index++,
-    `someValue should equal ${index}`);
+  assert.equal(someValue, index,
+    `someValue should equal ${index} not ${someValue}`);
+  index++;
 }
 
 assert.equal(someValue, Math.max(index-1, 0),
