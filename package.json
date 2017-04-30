@@ -8,10 +8,11 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "eslint": "^3.19.0",
     "istanbul": "^0.4.5"
   },
   "scripts": {
-    "test": "istanbul cover test",
+    "test": "eslint *.js && istanbul cover test",
     "preversion": "npm test",
     "postversion": "git push && git push --tags"
   },
