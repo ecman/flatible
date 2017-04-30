@@ -2,10 +2,10 @@
 
 // network of who knows of who
 const network = {
-  'bob': [],
-  'jill': [],
-  'kate': [],
-  'jim': []
+  'bob': ["Bob"],
+  'jill': ["Jill"],
+  'kate': ["Kate"],
+  'jim': ["Jim"]
 }
 
 // bob knows of: kate, jill
