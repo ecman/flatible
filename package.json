@@ -12,7 +12,7 @@
     "istanbul": "^0.4.5"
   },
   "scripts": {
-    "test": "eslint *.js && istanbul cover test",
+    "test": "node script/eslint.js *.js && istanbul cover test",
     "preversion": "npm test",
     "postversion": "git push && git push --tags"
   },
