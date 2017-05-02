@@ -1,6 +1,6 @@
 {
   "name": "flatible",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Generate values from a multi-dimensional array.",
   "main": "index.js",
   "directories": {
