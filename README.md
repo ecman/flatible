@@ -2,7 +2,7 @@
 
 [![build status](https://api.travis-ci.org/ecman/flatible.png)](https://travis-ci.org/ecman/flatible) [![codecov](https://codecov.io/gh/ecman/flatible/branch/master/graph/badge.svg)](https://codecov.io/gh/ecman/flatible) [![Code Climate](https://codeclimate.com/github/ecman/flatible/badges/gpa.svg)](https://codeclimate.com/github/ecman/flatible)
 
-Generate values from a multi-dimensional array.
+Iterate recursively on a multi-dimensional array
 
 # Usage
 
